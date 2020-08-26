@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 26, 2020
+ *      Author: Norhan
+ */
+
+#include <stdio.h>
+
+void main()
+{
+	int x;
+	printf("Enter a integer:");
+	fflush (stdin);
+	fflush (stdout);
+	scanf ("%d",&x);
+	printf ("You entered: %d", x);
+
+}
