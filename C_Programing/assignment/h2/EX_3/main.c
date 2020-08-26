@@ -1,11 +1,13 @@
 /*
  * main.c
  *
- *  Created on: Aug 26, 2020
+ *  Created on: Aug 27, 2020
  *      Author: Norhan
  */
 
+
 #include "stdio.h"
+
 
 void main()
 
@@ -23,6 +25,7 @@ void main()
 	a = (a>=b) ? a : b;
 	a = (a>=c) ? a : c;
 	printf("Largest number = %f", a);
+
 
 
 }
