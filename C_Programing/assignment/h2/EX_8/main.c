@@ -44,6 +44,13 @@ void main ()
 		printf ("%d / %d = %d", x, y, x/y);
 
 		break;
+
+	default :
+
+		printf ("you entered wrong operator");
+
+		break;
+
 	}
 
 }
