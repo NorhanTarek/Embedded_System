@@ -9,7 +9,7 @@
 #include"stdio.h"
 void main()
 {
-	int r, c, i,j;
+	int r, c, i,j; /* declare variables*/
 
 	int arr1[20][20], arr2[20][20];
 
