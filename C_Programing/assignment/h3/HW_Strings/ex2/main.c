@@ -11,7 +11,6 @@
 void main ()
 {
 	char str [100];
-	//char c;
 	int i, n = 0;
 	printf("Enter a string: ");
 	fflush(stdin);
