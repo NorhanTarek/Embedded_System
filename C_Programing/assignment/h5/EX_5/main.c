@@ -7,11 +7,13 @@
 
 
 #include "stdio.h"
-int r;
-#define Area(r) (2 * 3.14 * r)
+#define pi 3.14
+#define Area(r) (pi * r * r)
 
-void main ()
+
+int main ()
 {
+	int r;
 	float A;
 	printf("Enter the radius");
 	fflush(stdin);
@@ -20,4 +22,5 @@ void main ()
 
 	A = Area(r);
 	printf("Area=%.2f", A);
+	return 0;
 }
