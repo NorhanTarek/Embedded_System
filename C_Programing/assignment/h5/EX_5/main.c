@@ -10,7 +10,6 @@
 #define pi 3.14
 #define Area(r) (pi * r * r)
 
-
 int main ()
 {
 	int r;
